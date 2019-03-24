@@ -1,0 +1,20 @@
+{
+  "name": "api_users",
+  "version": "0.0.0",
+  "description": "API REST NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.19"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Irene Esteban",
+  "license": "ISC"
+}
