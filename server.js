@@ -8,6 +8,8 @@ const app = express();
 const routes = require('./routes');
 const config = require('./config')
 
+mongoose.Promise = require('bluebird');
+
 // configure app to use bodyParser()
 // this will let us get the data from a POST
 app.use(bodyparser.urlencoded({extended: true}));
